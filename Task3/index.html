@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomeWork</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<form>
+    <input type="radio" id="bold"  value="bold"><label for="bold">Bold</label>
+    <input type="radio" id="underline"  value="underline"><label for="underline">Underline</label>
+    <input type="radio" id="italics"  value="italics"><label for="italics">Italics</label>
+    <input type="radio" id="left" name="align" value="left"><label for="left">Left</label>
+    <input type="radio" id="right"  name="align" value="right"><label for="right">Right</label>
+    <input type="radio" id="justify" name="align" value="justify"><label for="justify">Justify</label><br>
+    <textarea rows="15" cols="70" name="text" id="text"></textarea><br>
+    <input id="btn" type="button" value="Show text" style="width: 40%" onclick="onClick()">
+</form>
+<p id="res" style="display: none">Result :</p>
+<div id="ex1" style="display: none"></div>
+<script src="js/js.js"></script>
+</body>
+</html>

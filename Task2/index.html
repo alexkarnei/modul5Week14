@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomeWork</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<form id="question1">
+    <p> 1) Сколько континентов на Земле ?</p>
+    <input type="radio" id="answer1" name="amount" value=6><label for="answer1">6</label><br>
+    <input type="radio" id="answer2" name="amount" value=7><label for="answer2">7</label><br>
+    <input class="btn"  type="button" value="Next" onclick="onClick()">
+</form>
+
+<form id="question2" style="display: none">
+    <p> 2) Самый большой континент это ?</p>
+    <input type="radio" id="answer3" name="amount" value="Евразия"><label for="answer3">Евразия</label><br>
+    <input type="radio" id="answer4" name="amount" value="Африка"><label for="answer4">Африка</label><br>
+    <input class="btn" type="button" value="Finish" onclick="onSecondClick()">
+</form>
+<script src="js/js.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#question1, #question2 {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+ input {
+     margin-top: 10px;
+     margin-right: 3px;
+ }
+ .btn {
+     width: 75px;
+ }
